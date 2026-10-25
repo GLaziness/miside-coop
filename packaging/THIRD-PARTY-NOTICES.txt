@@ -1,0 +1,17 @@
+MiSide Co-op ships the following third-party software unchanged.
+
+BepInEx 6.0.0-be.755+3fab71a (Unity.IL2CPP, win-x64): game\winhttp.dll, game\doorstop_config.ini,
+game\.doorstop_version, game\BepInEx\core, game\dotnet
+  License: GNU LGPL 2.1
+  Source:  https://github.com/BepInEx/BepInEx (commit 3fab71a)
+  Build:   https://builds.bepinex.dev/projects/bepinex_be (build 755)
+  BepInEx bundles further libraries under their own licenses, among them HarmonyX (MIT,
+  https://github.com/BepInEx/HarmonyX), Il2CppInterop (LGPL 3.0,
+  https://github.com/BepInEx/Il2CppInterop) and the .NET runtime (MIT, https://github.com/dotnet/runtime).
+  See the BepInEx repository for the full list.
+
+LiteNetLib 2.1.4: game\BepInEx\plugins\MiSideCoop\LiteNetLib.dll
+  License: MIT
+  Source:  https://github.com/RevenantX/LiteNetLib
+
+MiSide is (c) AIHASTO. This package contains no game files.

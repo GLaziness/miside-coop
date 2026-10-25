@@ -1,0 +1,14 @@
+# Private state of the dev PC: test installs, game files, dumps, logs, saves backup
+local/
+
+# Build output
+bin/
+obj/
+dist/
+__pycache__/
+*.pyc
+
+# Editors
+.vs/
+.vscode/
+*.user
