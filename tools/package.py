@@ -3,7 +3,7 @@
     python -I tools/package.py [--no-build]
 
 The zip holds one folder with install.bat, uninstall.bat, uninstall-all.bat, setup.ps1, the
-README, the third-party notices and game/, which mirrors the game folder: BepInEx from the
+README, the license, the third-party notices and game/, which mirrors the game folder: BepInEx from the
 pinned zip in local/downloads (downloaded from builds.bepinex.dev if missing, checked by
 SHA-256) and the plugin from a Release build.
 """
@@ -156,6 +156,8 @@ def main() -> None:
                    "pause\n", crlf=True)
     write_text(os.path.join(out, "README.txt"),
                open(os.path.join(ROOT, "README.md"), encoding="utf-8").read(), bom=True, crlf=True)
+    write_text(os.path.join(out, "LICENSE.txt"),
+               open(os.path.join(ROOT, "LICENSE"), encoding="utf-8").read(), crlf=True)
     write_text(os.path.join(out, "THIRD-PARTY-NOTICES.txt"),
                open(os.path.join(PACKAGING, "THIRD-PARTY-NOTICES.txt"), encoding="utf-8").read(), crlf=True)
 

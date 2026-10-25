@@ -112,6 +112,8 @@
 
 ## Благодарности и лицензии
 
+Код мода распространяется под лицензией MIT, текст в файле [LICENSE](LICENSE).
+
 - [BepInEx](https://github.com/BepInEx/BepInEx), LGPL-2.1, загрузчик модов. В архив входит
   без изменений, сборка 6.0.0-be.755.
 - [HarmonyX](https://github.com/BepInEx/HarmonyX), MIT, и
